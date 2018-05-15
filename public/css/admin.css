@@ -1,0 +1,97 @@
+.container {
+    width: 100%;
+    min-height: 1080px;
+    border: 1px solid #ccc;
+    padding: 25px;
+}
+
+.menu {
+    width: 20%;
+    min-height: 100px;
+    float: left;
+    border-top: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+
+}
+
+.menu-content-blank {
+    min-width: 3%;
+    float: left;
+    min-height: 1px;
+}
+
+.content {
+    width: 70%;
+    height: 100%;
+    min-height: 100px;
+    float: left;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+.menu-item {
+    width: 100%;
+    height: 40px;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+    line-height: 40px;
+}
+
+.menu-item > a {
+    text-decoration: none;
+    color: #269CC3;
+}
+
+.menu-item > a:hover {
+    text-decoration: underline;
+}
+
+.clear {
+    clear: both;
+}
+
+.content-container {
+    margin: auto;
+}
+
+/** content */
+.post-title input {
+    display: inline-block;
+    height: 30px;
+    line-height: 30px;
+    width: 100%;
+    font-size: 18px;
+    padding-left: 5px;
+}
+
+.post-meta {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.post-content {
+    display: inline-block;
+    width: 100%;
+}
+
+/** editor */
+#editor {
+    width: 100%;
+    height: 600px;
+    font-size: 18px;
+    padding-left:5px;
+}
+
+.savePost {
+    background-color: #269CC3;
+    width: 60px;
+    height: 30px;
+    display: inline-block;
+    color: #fff;
+    border: none;
+}
+.savePost:hover {
+    background-color: #00b0e8;
+    cursor: pointer;
+}

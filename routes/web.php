@@ -18,3 +18,7 @@ Route::get('/programming', 'ProgrammingController@lists')->name('programming');
 Route::get('/plant', 'PlantController@lists')->name('plant');
 Route::get('/poem', 'PoemController@lists')->name('poem');
 Route::get('/programming/{plug}', 'ProgrammingController@plug')->name('p-article');
+Route::get('/admin', 'AdminController@postList')->name('admin');
+Route::get('/admin/list', 'AdminController@postList')->name('admin');
+Route::get('/admin/edit', 'AdminController@edit');
+Route::post('/admin/save', 'AdminController@save');
